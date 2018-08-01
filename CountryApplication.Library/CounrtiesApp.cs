@@ -12,27 +12,28 @@ namespace CountryApplication.Library
         public static void MainMenu()
         {
             Console.WriteLine("What would you like to do?\n1.\tSee list of countries\n2.\tAdd a country\n3.\tExit");
-            var userChoice = Console.ReadLine();
+            var userChoice = (Enums.UserChoices)int.Parse(Console.ReadLine());
 
+            switch(userChoice)
+            {
+                case Enums.UserChoices.SeeList:
+                    CountriesTextFile.CountryRead();
+                    break;
 
-            if (userChoice == "1")
-            {
-                CountriesTextFile.CountryRead();
+                case Enums.UserChoices.AddCounty:
+                    CountriesTextFile.CountryAdd();
+                    break;
+
+                case Enums.UserChoices.Exit:
+                    Console.WriteLine("Goodbye");
+                    break;
+
+                default:
+                    Console.WriteLine("I'm sorry. That is not a valid option");
+                    MainMenu();
+                    break;
             }
-            else if (userChoice == "2")
-            {
-                CountriesTextFile.CountryAdd();
-            }
-            else if (userChoice == "3")
-            {
-                Console.WriteLine("Okay thanks");
-               
-            }
-            else
-            {
-                Console.WriteLine("I'm sorry. That is not a valid option");
-                MainMenu();
-            }
+          
         }
     }
 }
