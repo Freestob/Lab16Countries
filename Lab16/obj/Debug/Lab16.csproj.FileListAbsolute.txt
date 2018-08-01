@@ -1,0 +1,10 @@
+c:\users\frees\source\repos\Lab16\Lab16\bin\Debug\Lab16.exe.config
+c:\users\frees\source\repos\Lab16\Lab16\bin\Debug\Lab16.exe
+c:\users\frees\source\repos\Lab16\Lab16\bin\Debug\Lab16.pdb
+c:\users\frees\source\repos\Lab16\Lab16\bin\Debug\CountryApplication.Library.dll
+c:\users\frees\source\repos\Lab16\Lab16\bin\Debug\CountryApplication.Library.pdb
+c:\users\frees\source\repos\Lab16\Lab16\obj\Debug\Lab16.csprojAssemblyReference.cache
+c:\users\frees\source\repos\Lab16\Lab16\obj\Debug\Lab16.csproj.CoreCompileInputs.cache
+c:\users\frees\source\repos\Lab16\Lab16\obj\Debug\Lab16.csproj.CopyComplete
+c:\users\frees\source\repos\Lab16\Lab16\obj\Debug\Lab16.exe
+c:\users\frees\source\repos\Lab16\Lab16\obj\Debug\Lab16.pdb

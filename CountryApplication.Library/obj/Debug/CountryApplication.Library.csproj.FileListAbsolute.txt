@@ -1,0 +1,6 @@
+c:\Users\frees\source\repos\Lab16\CountryApplication.Library\bin\Debug\CountryApplication.Library.dll
+c:\Users\frees\source\repos\Lab16\CountryApplication.Library\bin\Debug\CountryApplication.Library.pdb
+c:\Users\frees\source\repos\Lab16\CountryApplication.Library\obj\Debug\CountryApplication.Library.csprojAssemblyReference.cache
+c:\Users\frees\source\repos\Lab16\CountryApplication.Library\obj\Debug\CountryApplication.Library.csproj.CoreCompileInputs.cache
+c:\Users\frees\source\repos\Lab16\CountryApplication.Library\obj\Debug\CountryApplication.Library.dll
+c:\Users\frees\source\repos\Lab16\CountryApplication.Library\obj\Debug\CountryApplication.Library.pdb
