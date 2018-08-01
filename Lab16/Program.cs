@@ -16,7 +16,6 @@ namespace Lab16
             {
                 country.Close();
             }
-
                 CounrtiesApp.MainMenu();
         }
     }

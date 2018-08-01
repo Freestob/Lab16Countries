@@ -26,10 +26,12 @@ namespace CountryApplication.Library
             else if (userChoice == "3")
             {
                 Console.WriteLine("Okay thanks");
-                using (FileStream country = File.Create(@"C: \Users\frees\source\repos\Lab16\countries.txt"))
-                {
-                    File.Delete(@"C: \Users\frees\source\repos\Lab16\countries.txt");
-                }
+               
+            }
+            else
+            {
+                Console.WriteLine("I'm sorry. That is not a valid option");
+                MainMenu();
             }
         }
     }

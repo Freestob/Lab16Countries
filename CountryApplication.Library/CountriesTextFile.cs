@@ -12,18 +12,15 @@ namespace CountryApplication.Library
         public static void CountryRead()
         {
              using (StreamReader countryStream = new StreamReader(@"C: \Users\frees\source\repos\Lab16\countries.txt"))
-                {
+             {
                     while (!countryStream.EndOfStream)
                     {
                         string line = countryStream.ReadLine();
 
                         Console.WriteLine(line);
                         Console.ReadKey();
-                       
-                        
                     }
-                countryStream.Close();
-            }
+             }
 
              CounrtiesApp.MainMenu();
         }
@@ -35,7 +32,6 @@ namespace CountryApplication.Library
             using (StreamWriter countryAdder = new StreamWriter(@"C: \Users\frees\source\repos\Lab16\countries.txt",true))
             {
                 countryAdder.WriteLine(countryToAdd);
-                countryAdder.Close();
             }
             CounrtiesApp.MainMenu();
         }
