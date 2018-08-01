@@ -32,7 +32,7 @@ namespace CountryApplication.Library
         {
             Console.WriteLine("What country would you like to add?");
             var countryToAdd = Console.ReadLine();
-            using (StreamWriter countryAdder = new StreamWriter(@"C: \Users\frees\source\repos\Lab16\countries.txt"))
+            using (StreamWriter countryAdder = new StreamWriter(@"C: \Users\frees\source\repos\Lab16\countries.txt",true))
             {
                 countryAdder.WriteLine(countryToAdd);
                 countryAdder.Close();
