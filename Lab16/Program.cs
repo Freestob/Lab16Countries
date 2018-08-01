@@ -14,7 +14,7 @@ namespace Lab16
         {
             using (FileStream country = File.Create(@"C: \Users\frees\source\repos\Lab16\countries.txt"))
             {
-                country.Close();
+               
             }
                 CounrtiesApp.MainMenu();
         }
